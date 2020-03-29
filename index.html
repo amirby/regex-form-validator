@@ -1,13 +1,28 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head> 
     <meta charset="utf-8" />
     <title>RegEx Form</title>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
     <h1>New User Signup</h1>
+    <form>
+      <div>
+        <input type="text" id="username" placeholder="write your name"/>
+        <h5> Must be alphanumeric and contains 5-12 characters ex walid123</h5>
+        <input type="text" id="email" placeholder="write your email"/>
+        <h5>Email must be a valid address, e.g. me@mydomain.com</h5>
+        <input type="password" id="password" placeholder="password"/>
+        <h5>Must be alphanumeric contains 5-12 characters, must have uppercase and lowercase ex: WAlid123</h5>
+        <input type="text" id="phone" placeholder="enter your phone number"/>
+        <h5>Must be a valid Tunisian number (13 digit) ex: 0021620200200</h5>
+        <input type="text" id="card" placeholder="enter your card number"/>
+        <h5>Must be numeric (6-digit) between every two digit (-) ex: 12-35-89</h5>
+       </div>
 
+    </form>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="validation.js"></script>
   </body>
 </html>

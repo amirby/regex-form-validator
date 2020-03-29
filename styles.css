@@ -1,0 +1,26 @@
+body{
+    text-align: center;
+}
+div{
+    display: inline-block;
+    border: 1px  solid black;
+    width : 400px;
+    padding: 20px;
+    text-align: left;
+}
+
+input{
+    width: 60%;
+    border-radius: 7px;
+}
+
+.valid{
+    border: 3px  solid green;
+}
+.unvalid {
+    border: 3px  solid red;
+}
+h5{
+    color: slategray;
+    margin-top: 5px;
+}
